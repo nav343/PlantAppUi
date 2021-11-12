@@ -55,7 +55,7 @@ const Banner1 = () => (
 
 const Banner2 = () => (
   <ImageBackground
-    style={{ width: "100%", height: 120 }}
+    style={{ width: "100%", height: 120, marginTop: 20 }}
     source={{
       uri: "https://img.freepik.com/free-photo/beautiful-house-plants-flower-pots-table_181624-23920.jpg?size=338&ext=jpg",
     }}
@@ -65,11 +65,17 @@ const Banner2 = () => (
       style={{
         width: "100%",
         height: "100%",
-        backgroundColor: "#55ff22",
+        backgroundColor: "#4df948",
         opacity: 0.3,
       }}
     />
-    <View style={{ position: "absolute", width: "100%", height: "100%" }}>
+    <View
+      style={{
+        position: "absolute",
+        width: "100%",
+        height: "100%",
+      }}
+    >
       <Text
         style={{
           fontSize: 30,
@@ -77,10 +83,11 @@ const Banner2 = () => (
           color: "#fff",
           marginLeft: 20,
           marginTop: 5,
+          marginRight: 20,
           textAlign: "right",
         }}
       >
-        Air Purifier
+        Living Room
       </Text>
       <Text
         style={{
@@ -89,6 +96,7 @@ const Banner2 = () => (
           color: "#fff",
           marginLeft: 20,
           marginTop: -5,
+          marginRight: 20,
           textAlign: "right",
         }}
       >

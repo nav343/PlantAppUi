@@ -50,7 +50,7 @@ const LoginBtn = ({ navigation }) => (
       backgroundColor: "#00a262",
       width: 370,
       borderRadius: 100,
-      paddingVertical: 15,
+      paddingVertical: 18,
       alignItems: "center",
     }}
   >

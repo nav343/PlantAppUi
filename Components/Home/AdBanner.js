@@ -11,6 +11,7 @@ export default function AdBanner() {
         justifyContent: "space-between",
         flexDirection: "row",
         paddingHorizontal: 10,
+        marginBottom: 10,
       }}
     >
       <View>
