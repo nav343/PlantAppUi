@@ -17,7 +17,7 @@ export default function Home({ navigation }) {
       <ScrollView showsVerticalScrollIndicator={false}>
         <Filter />
         <Banners />
-        <ModalCard />
+        <ModalCard navigation={navigation} />
       </ScrollView>
       <StatusBar style="dark" backgroundColor="#eaeef1" />
     </View>

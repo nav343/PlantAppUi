@@ -2,7 +2,7 @@ import React from "react";
 import { Text, Image, ScrollView, TouchableOpacity } from "react-native";
 import modalCardData from "../Data/ModalCardData";
 
-export default function ModalCard() {
+export default function ModalCard({ navigation }) {
   return (
     <ScrollView
       horizontal
@@ -11,7 +11,7 @@ export default function ModalCard() {
     >
       {modalCardData.map((plant, index) => (
         <TouchableOpacity
-          onPress={() => console.log("hi again again")}
+          onPress={() => navigation.push("AboutPlantScreen")}
           key={index}
           style={{
             marginHorizontal: 10,
