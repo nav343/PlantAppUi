@@ -1,4 +1,4 @@
-# My Universal React Project
+# PlantAppUi using React Native
 
 <p>
   <!-- iOS -->
